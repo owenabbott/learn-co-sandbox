@@ -1,0 +1,31 @@
+
+
+
+array = ["apple", "pear", "face", "champagne", "palm tree", "aardvark", "pineapple"]
+def starts_with_a(array)
+  new_array=[]
+  for i in array
+  if i[0]==a 
+  new_array.push(i)
+  end
+  pp new_array
+  return new_array
+  end
+  
+starts_with_a(array)
+
+def word_count(string)
+  array=string.split(" ")
+  return array.length
+  end
+  
+foods = {"pie" => "delicious", "broccoli" => "not delicious",
+"carrots" => "not delicious", "apples" => "delicious",
+"peanut butter" => "delicious"}
+
+def not_delicious()
+  foods.each do |key, value|
+  if value=="delicious"
+  puts key
+end
+end
